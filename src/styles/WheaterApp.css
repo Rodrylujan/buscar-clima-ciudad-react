@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+  width: 90%;
+  margin: 40px auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del título */
+.contenedor-titulo {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Formulario de la ciudad */
+.form-ciudad {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor de búsqueda */
+.contenedor-busqueda {
+  display: flex;
+}
+
+/* Estilos para el campo de entrada */
+.form-control {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-primary {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* Contenedor de resultados */
+.contenedor-resultados {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* contenedor ciudad */
+.contenedor-ciudad{
+  width: 500px;
+  min-height: 370px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-ciudad h1{
+  margin-bottom: 0;
+}
+
+.info-ciudad{
+  display: flex;
+  margin: 0;
+}
+
+.contenedor-informacion{
+  width: 100%;
+  height: 80%;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-clima{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.informacion{
+  margin: 5px;
+  font-size: 17px;
+}
+
+.logo-image{
+  width: 150px;
+  height: 150px;
+  background-color: #5becff ;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.bandera-pais{
+  background-color: transparent;
+  width: 20px;
+  height: 14px;
+}
